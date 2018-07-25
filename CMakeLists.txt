@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-set(PROJECT_NAME robot_geometry_msgs)
-project(${PROJECT_NAME})
+project(robot_geometry_msgs)
 
 
 
@@ -50,5 +49,5 @@ catkin_package(
 
 
 
-include_directories(${catkin_INCLUDE_DIRS})
+#include_directories(${catkin_INCLUDE_DIRS})
 
