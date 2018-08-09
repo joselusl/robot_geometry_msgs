@@ -31,6 +31,8 @@ add_message_files(
     DIRECTORY
         msg
     FILES
+        PointWithCovariance.msg
+        PointWithCovarianceStamped.msg
         RobotState.msg
 
 
